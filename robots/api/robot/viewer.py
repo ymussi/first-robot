@@ -1,8 +1,8 @@
 from flask_restplus import Resource
 from flask import request
-from robot.api import api
-from robot.api.robot.services import Robot
-from robot.codigo.robot_mail import login_gmail
+from robots.api import api
+from robots.api.robot.services import Robot
+from robots.robot.robot_mail import login_gmail
 
 ns = api.namespace('robot', description='Robo que loga nas contas gmail via browser')
 

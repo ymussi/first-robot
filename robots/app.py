@@ -1,7 +1,7 @@
 from flask import Flask, Blueprint
 from flask_cors import CORS
-from robot.api import api
-from robot.api.robot.viewer import ns as login
+from robots.api import api
+from robots.api.robot.viewer import ns as login
 
 
 def create_app(config_filename=None):

@@ -4,7 +4,7 @@ from time import sleep
 from configparser import ConfigParser
 
 config = ConfigParser()
-config.read('../../config.ini')
+config.read('../config.ini')
 
 url = config['SITES']['URL']
 email = config['MAIL']['EMAIL']

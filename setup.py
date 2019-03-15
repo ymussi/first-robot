@@ -10,7 +10,7 @@ with open("requirements.txt") as req:
 setup(name='ROBOT',
       version="0.0.1",
       description="",
-      url="",
+      url="https://github.com/ymussi/first-robot.git",
       author="Yuri Mussi",
       author_email="ymussi@gmail.com",
       license="BSD",
